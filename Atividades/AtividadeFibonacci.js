@@ -11,4 +11,5 @@ function verificandoNumeroFibonacci (numero) {
   }
   return `O número ${numero} não pertence à sequência de Fibonacci.`
 }
-console.log(verificandoNumeroFibonacci(2))
+let numero = 2
+console.log(verificandoNumeroFibonacci(numero))
